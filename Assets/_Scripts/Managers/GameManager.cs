@@ -436,7 +436,7 @@ public class GameManager : MonoBehaviour
     }
 
     //Options Button
-    public void OptionsButton()ol
+    public void OptionsButton()
     {
         AudioManager.Instance.PlaySFX(SoundType.Click, 1);
         SaveGame();
